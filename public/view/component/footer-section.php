@@ -1,10 +1,10 @@
 <!-- Footer -->
-<section class="cey-footer p-4  ">
+<section class="cey-footer p-4 cey-bg-dark-main ">
        <div class="container d-flex footer-main-box text-white mt-5 mb-5 ">
 
               <div class="w-100 gap-lg-4 gap-md-4 align-items-center text-center ">
                      <div class="footer footer-content  mt-5">
-                            <p class="cey-fs-3 ">SOUL REFRESH HOLIDAYS</p>
+                            <p class="cey-fs-3 ">ASOS</p>
                             <div class="d-flex gap-4 justify-content-center mb-3 responsive-menu">
                                    <a class="text-decoration-none cey-text-light-main cey-fs-1 border border-1 border-top-0  border-end-0 border-start-0  " href="/home" style="width: 100px;">HOME</a>
                                    <a class="text-decoration-none cey-text-light-main cey-fs-1  border border-1 border-top-0  border-end-0 border-start-0 " href="/package" style="width: 100px;">PACKAGES</a>

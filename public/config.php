@@ -14,7 +14,7 @@ define("ROUTES", [
     [
         "routes" => ["", "home"],
         "fileName" => "home",
-        "title" => "SOUL REFRESH HOLIDAY",
+        "title" => "asos",
         "js" => ["modules/Component", "home", "main", "package"],
         "css" => ["components", "home"],
         "isCustom" => false
@@ -24,10 +24,22 @@ define("ROUTES", [
         "routes" => ["products"],
         "fileName" => "products",
         "title" => "Single products view | Product Page",
-        "js" => ["products"],
+        "js" => ["app"],
         "css" => ["products"],
-        "isCustom" => true
+        "isCustom" => false
     ],
+
+
+    [
+        "routes" => ["product-details"],
+        "fileName" => "product-details",
+        "title" => "Single products view | Product Page",
+        "js" => ["product-detail"],
+        "css" => ["product-details"],
+        "isCustom" => false
+    ],
+
+
 
     [
         "routes" => ["about"],

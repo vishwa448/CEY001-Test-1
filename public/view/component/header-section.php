@@ -2,9 +2,9 @@
 
 <section>
   <nav
-    class="cey-header navbar navbar-expand-lg fixed-top bg-black bg-opacity-25 border border-top-0 border-end-0 border-start-0 py-3">
+    class="cey-header navbar navbar-expand-lg fixed-top bg-black  border border-top-0 border-end-0 border-start-0 py-3">
     <div class="container d-flex justify-contnet-between align-items-center">
-      <a class="text-decoration-none px-2 text-white navbar-brand header-logo" href="/"></a>
+      <a class="text-decoration-none px-2 text-white navbar-brand header-logo" href="/"> ASOS</a>
       <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
         <i class="bi bi-list fs-1"></i>
@@ -25,15 +25,7 @@
               <span class="d-none d-md-block">|</span>
             </li>
             <li class="nav-item d-flex">
-              <a class="text-decoration-none cey-text-light-main heeader-nav-item" href="/package">PACKAGES</a>
-              <span class="d-none d-md-block">|</span>
-            </li>
-            <li class="nav-item d-flex">
-              <a class="text-decoration-none cey-text-light-main heeader-nav-item" href="/inquery">INQUIRY</a>
-              <span class="d-none d-md-block">|</span>
-            </li>
-            <li class="nav-item d-flex">
-              <a class="text-decoration-none cey-text-light-main heeader-nav-item" href="/about">ABOUT</a>
+              <a class="text-decoration-none cey-text-light-main heeader-nav-item" href="/products">PRODUCTS</a>
               <span class="d-none d-md-block">|</span>
             </li>
             <li class="nav-item">
