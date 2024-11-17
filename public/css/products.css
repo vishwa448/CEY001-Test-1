@@ -1,0 +1,37 @@
+.pp-s1{
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.swiper-container {
+    width: 300px;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.product-info {
+    margin-left: 20px;
+}
+
+.price,
+.original-price {
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+}
