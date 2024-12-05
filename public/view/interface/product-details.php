@@ -3,39 +3,43 @@
     <div class="container d-flex justify-content-center align-items-center">
         <div class=" text-center mt-5">
             <!-- Image Slider -->
-            <!-- <div class="swiper-container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                    @foreach ($product['images'] as $image)
-                    <div class="swiper-slide"><img src="{{ $image }}" alt="Product Image"></div>
-                    @endforeach
-                </div> -->
-                <!-- Arrows -->
-                <!-- <div class="swiper-button-next"></div>
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
-            </div> -->
+                <div class="swiper-button-next"></div>
 
-            <!-- Product Information -->
-            <!-- <div class="product-info">
-                <h2>{{ $product['name'] }}</h2>
-                <p class="price">Now £{{ $product['price'] }}</p>
-                <p class="original-price">Was £{{ $product['original_price'] }}</p>
-                <p>{{ $product['description'] }}</p>
-                <p>Color: {{ $product['additionalInfo']['color'] }}</p>
-                <p>Size:
-                    @foreach ($product['additionalInfo']['size'] as $size)
-                    <span>{{ $size }}</span>
-                    @endforeach
-                </p>
-                <p>Category: {{ $product['additionalInfo']['category'] }}</p>
-                <p>Stock: {{ $product['additionalInfo']['stock'] }}</p>
-                <p>Likes: {{ $product['additionalInfo']['likes'] }}</p>
-            </div> -->
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <!-- Product Information  -->
+            <div class="product-info">
+                <h2 data-field="name">Product Name</h2>
+                <p class="price">Now $ <span data-field="price">price</span></p>
+                <p class="original-price">Was $ <span data-field="originalPrice">original price</span></p>
+                <p data-field="description">description</p>
+                <p>Color: <span data-field="additionalInfo.color">color</span></p>
+               
+                <p>Category: <span data-field="additionalInfo.category">category</span></p>
+                <p>Stock: <span data-field="additionalInfo.stock">stock</span></p>
+                <p>Likes: <span data-field="additionalInfo.likes">Likes</span></p>
+            </div>
 
-            <div class="row mt-5" id="product-detail">poduct detalis </div>
-
+            <!-- <div class="row mt-5" id="product-detail">poduct detalis </div> -->
+ 
         </div>
 
 
     </div>
 </section>
-

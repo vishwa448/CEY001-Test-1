@@ -15,7 +15,7 @@ define("ROUTES", [
         "routes" => ["", "home"],
         "fileName" => "home",
         "title" => "asos",
-        "js" => ["modules/Component", "home", "main", "package"],
+        "js" => [ "home", "main", "package"],
         "css" => ["components", "home"],
         "isCustom" => false
     ],

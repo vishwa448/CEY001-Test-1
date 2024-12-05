@@ -2,44 +2,22 @@
 <section class="pp-s1 ">
     <div class="container d-flex justify-content-center align-items-center">
         <div class="col-lg-8 text-center">
-            <!-- Image Slider -->
-            <!-- <div class="swiper-container"> -->
-            <!-- <div class="swiper-wrapper">
-                    @foreach ($product['images'] as $image)
-                    <div class="swiper-slide"><img src="{{ $image }}" alt="Product Image"></div>
-                    @endforeach
-                </div> -->
-            <!-- Arrows -->
-            <!-- <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div> -->
-            <!-- </div> -->
+            <div class="cey-bg-light-secondary">
 
-            <!-- Product Information -->
-            <!-- <div class="product-info">
-                <h2>{{ $product['name'] }}</h2>
-                <p class="price">Now £{{ $product['price'] }}</p>
-                <p class="original-price">Was £{{ $product['original_price'] }}</p>
-                <p>{{ $product['description'] }}</p>
-                <p>Color: {{ $product['additionalInfo']['color'] }}</p>
-                <p>Size:
-                    @foreach ($product['additionalInfo']['size'] as $size)
-                    <span>{{ $size }}</span>
-                    @endforeach
-                </p>
-                <p>Category: {{ $product['additionalInfo']['category'] }}</p>
-                <p>Stock: {{ $product['additionalInfo']['stock'] }}</p>
-                <p>Likes: {{ $product['additionalInfo']['likes'] }}</p>
-            </div> -->
-
-
-            <div id="product-list" class="cey-bg-light-secondary">
+                <img src="${product.images[0]}" alt="${product.name}">
+                <div class="product-info">
+                    <h2>${product.name}</h2>
+                    <p>${product.description}</p>
+                    <p class="price">Now $${product.price} <span class="original-price">Was $${product.originalPrice} (${product.discount})</span></p>
+                    <a href="product-details?id=${product.id}">View Details</a>
+                </div>
 
             </div>
 
-
+            <!-- javaScript model -->
+            <!-- <div id="product-list" class="cey-bg-light-secondary">
+            </div> -->
 
         </div>
-
-
     </div>
 </section>
